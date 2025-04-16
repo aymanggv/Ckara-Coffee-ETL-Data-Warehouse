@@ -15,7 +15,7 @@ A data engineering project simulating a real-world business scenario for a speci
 
 ## 🏗️ Tech Stack
 
-- **ETL**: Alteryx (workflows in `.yxmd` format)
+- **ETL**: Alteryx
 - **Data Modeling**: Star Schema
 - **Database Design**: Fact and Dimension tables
 - **Scripting**: SQL (for DDL & analysis)
