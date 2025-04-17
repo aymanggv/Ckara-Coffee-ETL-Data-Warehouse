@@ -34,11 +34,15 @@ This project implements a **multi-domain DWH** composed of the following:
 
 ### 🟩 Dimension Tables
 - `DATE_DIM`: day, month, year
-- `EMPLOYEE_DIM`: name, role, location
-- `PRODUCT_DIM`: SKU, origin, category
-- `CUSTOMER_DIM`: segment, location
-- `STORE_DIM`: city, region
-- `CHANNEL_DIM`: marketing source (e.g., Instagram, Web)
+- `BROWSER_DIM`: browser type, browser id
+- `EMPLOYEE_DIM`: name, employee id
+- `INSTA_CAPTIONS_DIM`: date updated, captions, hashtags
+- `INSTA_METRICS_DIM`: date updated, impressions, from home, from hashtags, from explore, from other, saves, comments, shares, likes, profile visits, follows
+- `NEIGHBOURHOODS_DIM`: neighbourhood id, neighbourhood
+- `PRODUCT_DIM`: product id, product group, product type, product, product description
+- `ONLINE_CLICKS_DIM`: neighbourhood id, click id, browser id, entry time, duration, attributes
+- `STORE_DIM`: store id, store location
+- `TRANSACTIONS_DIM`: date id, transaction id, transaction quantity, store id, product id, employee id
 
 ---
 
