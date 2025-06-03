@@ -69,3 +69,4 @@ JOIN STORE_DIM st ON s.store_id = st.store_id
 WHERE p.origin = 'Brazil' AND st.neighborhood = 'El Born'
 GROUP BY e.name
 ORDER BY total_sales DESC;
+```
