@@ -30,7 +30,8 @@ This project implements a **multi-domain DWH** composed of the following:
 ### 🟦 Fact Tables
 - `SALES_FACT`: transactions, revenue, quantity, store
 - `CLICKS_FACT`: clickstream events, browser, duration
-- `EMPLOYEE_FACT`: employee performance, social media engagement  
+- `EMPLOYEE_FACT`: employee performance, social media engagement
+
 ![DWH](design/dwh/DWH_Design.png)
 
 ### 🟩 Dimension Tables
